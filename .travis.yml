@@ -3,9 +3,7 @@ language:
 python:
       - "2.7"
 before_install:
-      - "wget http://peak.telecommunity.com/dist/ez_setup.py python ez_setup.py"
-      - "wget http://python-distribute.org/distribute_setup.py python distribute_setup.py"
-      - "wget https://github.com/pypa/pip/raw/master/contrib/get-pip.py python get-pip.py"
+      - "yum install -y pip"
 install:
       - "pip install tornado"
 
