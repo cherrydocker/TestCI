@@ -2,7 +2,7 @@
 #encoding: utf-8
 
 import unittest
-import myclass
+import compute
 
 class mytest(unittest.TestCase):
     
