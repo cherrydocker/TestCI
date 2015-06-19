@@ -4,11 +4,8 @@ language:
      python
 python:
       - "2.7"
-before_install:
-      - "sudo yum install -y pip"
-install:
-      - "pip install tornado"
-
 script:
+      - "sudo yum install -y pip"
+      - "pip install tornado"
       - "python test.py"
       - "python toranado_example.py"
