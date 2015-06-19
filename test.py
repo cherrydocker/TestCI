@@ -16,8 +16,7 @@ class mytest(unittest.TestCase):
     
     #具体的测试用例，一定要以test开头
     def testsum(self):
-        a = sum(1,2)
-        self.assertEqual(a,2)
+        self.assertEqual(sum(),2)
         
         
         
