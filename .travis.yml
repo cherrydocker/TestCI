@@ -5,7 +5,7 @@ language:
 python:
       - "2.7"
 before_script:
-      - "./before.sh"
+      - "./before.sh > temp.log"
 script:
       - "pip install tornado"
       - "python test.py"
