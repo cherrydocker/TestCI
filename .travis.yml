@@ -5,10 +5,11 @@ language:
 python:
       - "2.7"
 before_install:
-      - "rpm -ivh yum-2.0.4-2.noarch.rpm"
-      - "yum install -y docker.io"
+      - "apt-get update"
+      - "apt-get install -y docker.io"
 before_script:
       - "./before.sh > temp.log"
 script:
       - "pip install tornado"
       - "python test.py"
+      - "docker build ."
