@@ -5,6 +5,5 @@ language:
 python:
       - "2.7"
 script:
-      - "sudo apt-get install -y pip"
       - "pip install tornado"
       - "python test.py"
