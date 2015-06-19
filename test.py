@@ -2,7 +2,6 @@
 #encoding: utf-8
 
 import unittest
-import compute
 
 class mytest(unittest.TestCase):
     
@@ -16,7 +15,7 @@ class mytest(unittest.TestCase):
     
     #具体的测试用例，一定要以test开头
     def testsum(self):
-        self.assertEqual(sumjoin('o','p'),'op')
+        self.assertEqual('o'.join('p'),'op')
         
         
         
