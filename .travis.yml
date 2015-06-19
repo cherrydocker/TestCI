@@ -8,4 +8,3 @@ script:
       - "sudo apt-get install -y pip"
       - "pip install tornado"
       - "python test.py"
-      - "python tornado_exaple.py"
