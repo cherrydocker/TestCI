@@ -1,3 +1,2 @@
-@staticmethod
-def sum(x,y):
-    return 3+2
+def sumjoin(x,y):
+    return x+y
