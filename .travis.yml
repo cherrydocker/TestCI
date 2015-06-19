@@ -3,7 +3,7 @@ language:
 python:
       - "2.7"
 before_install:
-      - "yum install -y pip"
+      - "sudo yum install -y pip"
 install:
       - "pip install tornado"
 
