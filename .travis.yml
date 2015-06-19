@@ -5,7 +5,7 @@ language:
 python:
       - "2.7"
 script:
-      - "sudo yum install -y pip"
+      - "sudo apt-get install -y pip"
       - "pip install tornado"
       - "python test.py"
       - "python toranado_example.py"
