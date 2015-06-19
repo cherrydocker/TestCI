@@ -1,3 +1,3 @@
 @staticmethod
-def sum():
+def sum(x,y):
     return 3+2
