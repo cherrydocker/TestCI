@@ -1,3 +1,3 @@
 #!/bin/bash
 ls -al $pwd
-service docker.io start
+sudo service docker.io start
