@@ -15,7 +15,7 @@ class mytest(unittest.TestCase):
     
     #具体的测试用例，一定要以test开头
     def testsum(self):
-        self.assertEqual('o'.join('p'),'op')
+        self.assertEqual('='.join(['o','p']),'o=p')
         
         
         
